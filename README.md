@@ -7,17 +7,19 @@
 
 This extension gives more fine-grain control over mouse sensitivity and FOV settings in [Krunker.io](https://krunker.io/).
 
+**Important:** The use of this extension should never count as any form of cheating or external assistance, since it only gives players more granular control over their settings. For the FOV slider specifically, the extension does not change its range, but only its granularity. This means that any FOV settings obtained with the extension is still within the limits set by the game's developers, ruling out any unfair advantages.
+
 
 ## Installation
 
 
 [**Download the latest version here**](https://github.com/adam10603/Granular-Settings-for-Krunker/releases/download/v1.0/Granular-Settings-for-Krunker-v1.0.zip), unzip it, then follow these steps:
-  * Open the extensions page
-    * In Chrome: Click the 3 dots in the top right, and go to *More tools* -> *Extensions*
-    * In Opera: press *Ctrl + Shift + E*
-  * Enable *Developer mode* on the top right
-  * Click *Load unpacked* on the top left
-  * Select the *extension* folder from the files you unzipped
+  * Open the **extensions page**
+    * In Chrome: Click the **3 dots** in the top right, and go to **More tools** -> **Extensions**
+    * In Opera: press **Ctrl + Shift + E**
+  * Enable **Developer mode** on the top right
+  * Click **Load unpacked** on the top left
+  * Select the **extension** folder from the files you unzipped
 
 The only reason for this instead of it being on the Chrome Web Store is because all devs need to pay a $5 fee before publishing an extension there, even if it's a free one. Fuck that.
 
