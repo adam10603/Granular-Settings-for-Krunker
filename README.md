@@ -13,14 +13,11 @@ This extension gives more fine-grain control over mouse sensitivity and FOV sett
 
 [**Download the latest version here**](https://github.com/adam10603/Granular-Settings-for-Krunker/releases/download/v1.0/Granular-Settings-for-Krunker-v1.0.zip), unzip it, then follow these steps:
   * Open the extensions page
-    * [Shortcut for Chrome][1]
-    * [Shortcut for Opera][2]
+    * In Chrome: Click the 3 dots in the top right, and go to *More tools* -> *Extensions*
+    * In Opera: press *Ctrl + Shift + E*
   * Enable *Developer mode* on the top right
   * Click *Load unpacked* on the top left
   * Select the *extension* folder from the files you unzipped
-
-[1]: chrome://extensions
-[2]: opera://extensions
 
 The only reason for this instead of it being on the Chrome Web Store is because all devs need to pay a $5 fee before publishing an extension there, even if it's a free one. Fuck that.
 
