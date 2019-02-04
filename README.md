@@ -11,7 +11,7 @@ This extension gives more fine-grain control over mouse sensitivity and FOV sett
 ## Installation
 
 
-[**Download the latest version here**](https://github.com/adam10603/GTAVHandlingParserJs/releases), unzip it, then follow these steps:
+[**Download the latest version here**](https://github.com/adam10603/Granular-Settings-for-Krunker/releases/download/v1.0/Granular-Settings-for-Krunker-v1.0.zip), unzip it, then follow these steps:
   * Open the extensions page
     * [Shortcut for Chrome](chrome://extensions)
     * [Shortcut for Opera](opera://extensions)
