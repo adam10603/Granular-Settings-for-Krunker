@@ -27,6 +27,10 @@ The only reason for this instead of it being on the Chrome Web Store is because 
 
 Once installed, click the extension's icon in your browser, set your values, save them, and go enjoy the game! You only need to set it up once, and your settings will always apply to the game as long as the extension is running.
 
+Recommended settings:
+
+![Settings](https://i.imgur.com/lmOD0Bw.png "Settings")
+
 The extension has been tested in **Chrome 72.0** and **Opera 57.0**.
 
 
