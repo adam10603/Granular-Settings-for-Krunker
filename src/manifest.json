@@ -1,0 +1,28 @@
+{
+    "name": "Granular Settings for Krunker",
+    "version": "1.0",
+    "description": "Enables customization of the sensitivity and FOV sliders in Krunker.io, for finer control. Once you save your settings, they will always apply to the in-game sliders if you have the extension running. IMPORTANT: This extension should never count as any form of cheating or external assistance, as it simply gives users more fine-grain control over their sensitivity. For the FOV slider, it only affects the slider's granularity, and NOT its range. Therefore any FOV setting obtained with this extension is still within the limits of the original game.",
+    "manifest_version": 2,
+    "permissions": ["storage", "https://krunker.io/*"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "icon32.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "32": "icon32.png",
+        "128": "icon128.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+          "matches": ["https://krunker.io/*"],
+          "js": ["contentScript.js"],
+          "run_at": "document_idle"
+    }],
+    "web_accessible_resources" : ["gsInjected.js"]
+}

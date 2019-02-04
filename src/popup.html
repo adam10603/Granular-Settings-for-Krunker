@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+            <div style="margin: 10px;">
+            Sens. slider minimum:<br>
+            <input type="number" class="inputField" id="sliderMin" min="0.01" max="0.9" step="0.01">
+            <div class="rangeDescription">[0.01 - 0.9]</div><br>
+            </div>
+            <div style="margin: 10px;">
+            Sens. slider maxium:<br>
+            <input type="number" class="inputField" id="sliderMax" min="1.0" max="15.0" step="0.01">
+            <div class="rangeDescription">[1.0 - 15.0]</div><br>
+            </div>
+            <div style="margin: 10px;">
+            Sens. slider granularity:<br>
+            <input type="number" class="inputField" id="sliderStep" min="0.01" max="0.1" step="0.01">
+            <div class="rangeDescription">[0.01 - 0.1]</div><br>
+            </div>
+            <div style="margin: 10px;">
+            <input type="checkbox" id="granularFOV">Granular FOV Slider<br>
+            </div>
+            <div style="margin: 10px;">
+            <button type="button" class="saveButton" id ="saveButton">Save Settings</button>
+            </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
