@@ -1,5 +1,5 @@
 # Granular Settings for Krunker
-![Version](https://img.shields.io/badge/Version-1.0-green.svg) ![License](https://img.shields.io/badge/License-WTFPL%20v2-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.0.1-green.svg) ![License](https://img.shields.io/badge/License-WTFPL%20v2-blue.svg)
 
 
 ## Intro
@@ -41,6 +41,8 @@ The extension has been tested in **Chrome 72.0** and **Opera 57.0**.
 
 * v1.0
   * Initial release
+* v1.0.1
+  * Added support for Weapon FOV slider
 
 _____________________
 ![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png) Licensed under WTFPL v2 (see the file [COPYING](COPYING)).
