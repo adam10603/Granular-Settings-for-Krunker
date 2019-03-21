@@ -29,7 +29,10 @@ function gs_applyModifications(liveUpdateAttempt = false) {
             var sliderInputElement = sliderElement.parentNode.lastChild.lastChild;
             if (sliderInputElement) {
                 if (sliderInputElement.nodeName === "INPUT") {
-                    if (sliderElementID != "slid9") { // Don't modify FOV range
+                    if (sliderElementID == "slid9" || sliderElementID == "slid10") {
+                        // FOV sliders, only change step size, not limits
+                        sliderInputElement.step = (gs_settings["granularFOV"] ? 0.5 : 5);
+                    } else {
                         if (sliderInputElement.value < newMin) {
                             sliderInputElement.value    = newMin;
                             sliderElement.innerHTML     = newMin.toString();
@@ -41,8 +44,6 @@ function gs_applyModifications(liveUpdateAttempt = false) {
                         sliderInputElement.min  = newMin;
                         sliderInputElement.max  = newMax;
                         sliderInputElement.step = newStep;
-                    } else {
-                        sliderInputElement.step = (gs_settings["granularFOV"] ? 0.5 : 5);
                     }
                 }
             } else {
@@ -56,6 +57,7 @@ function gs_applyModifications(liveUpdateAttempt = false) {
     modifySlider("slid7", "sensitivity slider");
     modifySlider("slid8", "aim sensitivity slider");
     modifySlider("slid9", "FOV slider");
+    modifySlider("slid10", "Weapon FOV slider");
 }
 
 function gs_init() {
