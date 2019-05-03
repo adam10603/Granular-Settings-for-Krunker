@@ -1,3 +1,7 @@
+# Important
+
+### This extension no longer works with Krunker, but there's no need for it either, since now you can type any custom number as your sensitivity and FOV in the settings. I'll still leave this repo up just for the sake of it though.
+
 # Granular Settings for Krunker
 ![Version](https://img.shields.io/badge/Version-1.0.1-green.svg) ![License](https://img.shields.io/badge/License-WTFPL%20v2-blue.svg)
 
